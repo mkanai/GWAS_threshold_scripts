@@ -63,3 +63,8 @@ Rscript utils/plot.R MAF005 1 100000
 ## Citation
 * Kanai, M. *et al.* Empirical estimation of genome-wide significance thresholds based on the 1000 Genomes Project. (under revision).
 
+## Contact
+Masahiro Kanai
+* masahiro.kanai@riken.jp
+* http://mkanai.github.io/
+
