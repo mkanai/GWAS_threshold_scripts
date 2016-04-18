@@ -33,7 +33,7 @@ NumericMatrix getMetaP(NumericMatrix x) {
         meta(i, 0) = B / S2;
         meta(i, 1) = sqrt(1 / S2);
         double Z = meta(i, 0) / meta(i, 1);
-        meta(i, 2) = 2 * R::pnorm(fabs(Z), 0.0, 1.0, 0, 0);
+        meta(i, 2) = R::pchisq(Z*Z, 1, 0, 0);
     }
 
     return meta;
