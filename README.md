@@ -10,7 +10,7 @@ This repository contains the scripts used in Kanai, M. *et al.*
     * We use `qsub` command in our scripts. For other environments, please replace the command appropriately.
 * Our customized version of [PLINK 1.9](https://www.cog-genomics.org/plink2/)
     * We added several features to conduct our GWAS simulations against randomly assigned case-control phenotypes.
-    * Our customized version is based on `PLINK v1.90b3l` (chrchang/plink-ng@1d8cbd4).
+    * Our customized version is based on [`PLINK v1.90b3l`](https://github.com/chrchang/plink-ng/commit/1d8cbd48106565d381a19efc324472ce47f92e0c).
     * To install, run the following commands.
 
 ```{bash}
